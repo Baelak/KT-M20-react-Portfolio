@@ -1,0 +1,85 @@
+.portfolio {
+    padding: 0rem;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .project-card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    height: 200px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .project-title {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-description {
+    color: #ddd;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center; /* Center-align the icons horizontally */
+    align-items: center; /* Center-align the icons vertically */
+  }
+  
+  .project-links img {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover .project-links img {
+    transform: scale(1.5);
+    
+  }
+  
+  .project-card:hover .project-links img:hover {
+    transform: scale(2.5);
+    
+  }
