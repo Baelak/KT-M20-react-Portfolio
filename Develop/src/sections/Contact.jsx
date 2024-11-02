@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/validateEmail';
+import '../styles/contact.css'; 
 
 function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -10,7 +11,7 @@ function Contact() {
     setFormData({ ...formData, [name]: value });
 
     if (name === 'email') {
-      setErrors({ ...errors, email: validateEmail(value) ? '' : 'Invalid email address' });
+      setErrors({ ...errors, email: validateEmail(value) ? '' : 'Please put a valid email address 😅' });
     } else {
       setErrors({ ...errors, [name]: value ? '' : 'This field is required' });
     }

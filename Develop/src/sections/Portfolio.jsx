@@ -1,7 +1,7 @@
 import React from 'react';
 import githubLogo from '../../public/assets/images/logos/footer-logo-github.png';
 import deployLogo from '../../public/assets/images/logos/start-button-logo.png';
-import '../styles/Portfolio.css'; 
+import '../styles/portfolio.css'; 
 
 function Portfolio() {
   const webProjects = [

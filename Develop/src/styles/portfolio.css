@@ -2,10 +2,6 @@
     padding: 0rem;
   }
   
-  h3 {
-    text-align: center;
-  }
-  
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
