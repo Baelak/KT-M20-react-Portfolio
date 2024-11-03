@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import '../styles/navigation.css';
 
 function Navigation({ setCurrentSection, currentSection }) {
   const sections = ['AboutMe', 'Portfolio', 'Contact', 'Resume'];
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
     <nav>
-      <ul>
-        {sections.map(section => (
+      <button className="hamburger-icon" onClick={toggleMenu}>
+        ☰
+      </button>
+      <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+        {sections.map((section) => (
           <li key={section}>
             <button
               className={currentSection === section ? 'active' : ''}
-              onClick={() => setCurrentSection(section)}
+              onClick={() => {
+                setCurrentSection(section);
+                setIsMenuOpen(false); // Close menu after selecting
+              }}
             >
               {section.replace(/([A-Z])/g, ' $1').trim()}
             </button>

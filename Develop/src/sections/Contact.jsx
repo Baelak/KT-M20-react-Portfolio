@@ -13,17 +13,39 @@ function Contact() {
     if (name === 'email') {
       setErrors({ ...errors, email: validateEmail(value) ? '' : 'Please put a valid email address 😅' });
     } else {
-      setErrors({ ...errors, [name]: value ? '' : 'This field is required' });
+      setErrors({ ...errors, [name]: value ? '' : 'This field is required 😅' });
     }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Validate all fields
+    const newErrors = {};
+    if (!formData.name) {
+      newErrors.name = 'This field is required 😅';
+    }
+    if (!formData.email) {
+      newErrors.email = 'This field is required 😅';
+    } else if (!validateEmail(formData.email)) {
+      newErrors.email = 'Please put a valid email address 😅';
+    }
+    if (!formData.message) {
+      newErrors.message = 'This field is required 😅';
+    }
+
+    // If there are errors, set them to state
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      return; // Stop submission if there are errors
+    }
+
     console.log('Form submitted', formData);
+    // Here you would typically handle form submission (e.g., sending data to an API)
   };
 
   return (
-    <section>
+    <section className='contact'>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <label>
