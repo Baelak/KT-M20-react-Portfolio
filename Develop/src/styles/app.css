@@ -72,7 +72,12 @@ section a:hover{
     text-shadow: 2px 2px 5px #4ced5c;
     transform: scale(1.5);
   }
-  
+  section h3{
+      line-height: 1.5;
+      text-align: justify;
+      margin-bottom: 7rem;
+      text-indent: 50px;
+  }
 a img{
   height: 1.5rem;
   margin-left: .5rem;

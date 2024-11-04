@@ -10,7 +10,7 @@ function Resume() {
       <img src='./public/assets/images/logos/download-button-logo.png'></img></a>
       <br/>
 
-      <h3> Front End Proficiencies</h3>
+      <h4> Front End Proficiencies</h4>
       <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -21,7 +21,7 @@ function Resume() {
             <li>Bootstrap</li>
       </ul>
       
-      <h3> Back End Proficiencies </h3>
+      <h4> Back End Proficiencies </h4>
       <ul>
             <li>APIs</li>
             <li>NodeJS</li>

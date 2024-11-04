@@ -12,39 +12,51 @@ section.contact {
     margin-bottom: 1.5rem;
   }
   
+  /*Customize the form placement*/
+  
   form {
     display: flex;
     flex-direction: column;
   }
   
-  label {                               /* Change the styling of the input box labels*/
+  /* Change the styling of the input box labels*/
+
+  label {
     font-size: 1rem;
     margin-bottom: 1rem;
     color: white;
   }
   
+  /*Customize the form boxes*/
+
   input[type="text"],
   input[type="email"],
   textarea {
     width: 100%;
     padding: 0.5rem;
     margin-top: 0.3rem;
-    background-color: #0c3430;         /* Change the text box color of the contact form*/
-    color: white;                     /* Change the text color when typing into the contact form*/
-    border: 1px solid white;          /* Change the borders of the input boxes*/
+    background-color: #0c3430;          /* Change the text box color of the contact form*/
+    color: white;                       /* Change the text color when typing into the contact form*/
+    border: 1px solid white;            /* Change the borders of the input boxes*/
     border-radius: 4px;
   }
   
+  /*Customize the form boxes*/
+
   textarea {
     height: 100px;
     resize: vertical;
   }
 
+  /*Customize the form boxes transform on hover*/
+
   textarea:hover,input:hover {
     transform: scale(1.05);
   }
 
-  button[type="submit"] {
+  /*Customize the contact form send button*/
+
+  button[type="submit"] {                           
     max-width: 550px;
     margin-top: 1rem;
     padding: 0.7rem;
@@ -56,14 +68,18 @@ section.contact {
     cursor: pointer;
   }
   
-  button[type="submit"]:hover {         /* Customize what happens when the contact send button is hovered over*/
+  /* Customize what happens when the contact send button is hovered over*/
+
+  button[type="submit"]:hover {
     transform: scale(1.05);
     color: #0c3430;
   }
   
+  /*Customize the form errors*/
+
   span {
     font-size: 0.9rem;
-    color: orange;                    /* Change the color for validation errors */
+    color: orange;          /* Change the color for validation errors */
     display: block;
     margin-top: 0.2rem;
   }

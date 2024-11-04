@@ -1,7 +1,10 @@
 import React from 'react';
 import githubLogo from '../../public/assets/images/logos/footer-logo-github.png';
-import deployLogo from '../../public/assets/images/logos/start-button-logo.png';
+import deployLogo from '../../public/assets/images/logos/power-button-logo.png';
+import startLogo from '../../public/assets/images/logos/start-button-logo.png';
+
 import '../styles/portfolio.css'; 
+
 
 function Portfolio() {
   const webProjects = [
@@ -10,7 +13,7 @@ function Portfolio() {
       deployLink: 'https://kt-m19-text-editor.onrender.com',
       repoLink: 'https://github.com/Baelak/KT-M19-text-Editor',
       backgroundImage: 'url("./public/assets/images/cards/text-editor-card.png")',
-      description: 'A syntax highlighting text editor for offline & online use that can be installed as a native app.'
+      description: 'A syntax highlighting text editor that can be installed and used offline.'
     },
     {
       title: 'Trivia',
@@ -110,7 +113,7 @@ function Portfolio() {
                 <p className="project-description">{project.description}</p>
                 <div className="project-links">
                   <a href={project.deployLink} target="_blank" rel="noopener noreferrer">
-                    <img src={deployLogo} alt="Deploy Link" />
+                    <img src={startLogo} alt="Start Link" />
                   </a>
                   <a href={project.repoLink} target="_blank" rel="noopener noreferrer">
                     <img src={githubLogo} alt="GitHub Repo" />
