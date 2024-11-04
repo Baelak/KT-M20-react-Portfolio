@@ -24,7 +24,7 @@ https://github.com/Baelak/KT-M20-react-Portfolio
 * [Questions](#questions)
 
 ## Features
-One useful feature of this website is that the code is modularized insprired by react and has comments for easy customization for anyone who works on it or decides to use it.
+One useful feature of this website is that the css code is modularized insprired by react it is serparated on component basis and it makes the page easier to manage. The css also comments for easy customization later on and for anyone who works on it.
 
 ## Dependencies
 Nodemon, Express, React, React-dom

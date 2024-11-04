@@ -1,8 +1,12 @@
+/* Responsive design: Customize Nav links placement*/
+
 .nav-links {
     display: flex;
     list-style: none;
   }
   
+/* Responsive design: Customize hamburger menu position */
+
   .hamburger-icon {
     display: none;
     font-size: 24px;
@@ -14,30 +18,37 @@
 
   }
   
-  /* Responsive design: Hide nav links and show hamburger on smaller screens */
+/* Responsive design: Hide nav links and show hamburger on smaller screens */
+
   @media (max-width: 768px) {
     .nav-links {
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 60px; /* Adjust based on your header height */
+      top: 137px;    /* Adjust based on your header height to distance the hamburger menu */
       left: 0;
       right: 0;
-      background-color: #0c3430; /* Adjust color as needed */
+      background-color: #0c3430;    /*Customize background color for hamburger menu*/
       padding: 1rem;
       z-index: 1000;
     }
   
+/* Responsive design: Customize Nav links view */
+
     .nav-links.open {
       display: flex;
     }
   
+/* Responsive design: Customize hamburger icon view */
+
     .hamburger-icon {
       display: block;
       margin-right: 75px;
     }
   }
   
+/* Responsive design: Customize Nav links buttons view */
+
   .nav-links li button {
     background: none;
     border: none;
@@ -48,6 +59,8 @@
     cursor: pointer;
   }
   
+/* Responsive design: Customize Nav links active view */
+
   .nav-links li button.active {
     font-weight: bold;
     color: #66ff99; /* Active section color */

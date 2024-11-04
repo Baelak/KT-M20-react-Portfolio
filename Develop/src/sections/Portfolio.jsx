@@ -16,7 +16,7 @@ function Portfolio() {
       description: 'A syntax highlighting text editor that can be installed and used offline.'
     },
     {
-      title: 'Trivia',
+      title: 'Trivia 🤍',
       deployLink: 'https://baelak.github.io/P1-Trivia/',
       repoLink: 'https://github.com/Baelak/P1-Trivia',
       backgroundImage: 'url("./public/assets/images/cards/trivia-card.png")',

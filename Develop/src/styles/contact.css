@@ -1,3 +1,5 @@
+/*Customize Contact Section spacing*/
+
 section.contact {
     padding: 2rem;
     background-color: #051e2c;
@@ -5,21 +7,23 @@ section.contact {
     max-width: 600px;
     margin: 0 auto;
 }
-  
+
+/*Customize Contact page h2 texts*/
+
   h2 {
     text-align: left;
     color: #4ced5c;
     margin-bottom: 1.5rem;
   }
   
-  /*Customize the form placement*/
+/*Customize the form placement*/
   
   form {
     display: flex;
     flex-direction: column;
   }
   
-  /* Change the styling of the input box labels*/
+/* Change the styling of the input box labels*/
 
   label {
     font-size: 1rem;
@@ -27,7 +31,7 @@ section.contact {
     color: white;
   }
   
-  /*Customize the form boxes*/
+/*Customize the form boxes*/
 
   input[type="text"],
   input[type="email"],
@@ -41,20 +45,20 @@ section.contact {
     border-radius: 4px;
   }
   
-  /*Customize the form boxes*/
+/*Customize the form boxes*/
 
   textarea {
     height: 100px;
     resize: vertical;
   }
 
-  /*Customize the form boxes transform on hover*/
+/*Customize the form boxes transform on hover*/
 
   textarea:hover,input:hover {
     transform: scale(1.05);
   }
 
-  /*Customize the contact form send button*/
+/*Customize the contact form send button*/
 
   button[type="submit"] {                           
     max-width: 550px;
@@ -68,14 +72,14 @@ section.contact {
     cursor: pointer;
   }
   
-  /* Customize what happens when the contact send button is hovered over*/
+/* Customize what happens when the contact send button is hovered over*/
 
   button[type="submit"]:hover {
     transform: scale(1.05);
     color: #0c3430;
   }
   
-  /*Customize the form errors*/
+/*Customize the form errors*/
 
   span {
     font-size: 0.9rem;
