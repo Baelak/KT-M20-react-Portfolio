@@ -6,7 +6,7 @@ import Portfolio from './sections/Portfolio';
 import Contact from './sections/Contact';
 import Resume from './sections/Resume';
 
-function App() {
+function MyApp() {
   const [currentSection, setCurrentSection] = useState('AboutMe');
 
   const renderSection = () => {
@@ -31,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default MyApp;
