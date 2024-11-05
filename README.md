@@ -33,11 +33,10 @@ Nodemon, Express, React, React-dom
 **Javascript**, and **HTML** are the language used, while the technologies used  are **Node.js**, **Express.js**, and **Netlify**.
 
 ## Screenshots
-<img src="./Develop/client/src/images/homepage.png" alt="Homepage" style="max-height: 200px; max-width: 200px;">
-<img src="./Develop/client/src/images/Installed.png" alt="Installed" style="max-height: 200px; max-width: 200px;">
-<img src="./Develop/client/src/images/Manifest.png" alt="Manifest" style="max-height: 200px; max-width: 200px;">
-<img src="./Develop/client/src/images/Service Worker.png" alt="Service Worker" style="max-height: 200px; max-width: 200px;">
-<img src="./Develop/client/src/images/IndexedDB Storage.png" alt="IndexedDB Storage" style="max-height: 200px; max-width: 200px;">
+<img src="./Develop/public/assets/images/readme/AboutMe.png" alt="AboutMe" style="max-height: 200px; max-width: 200px;">
+<img src="./Develop/public/assets/images/readme/Portfolio.png" alt="Portfolio" style="max-height: 200px; max-width: 200px;">
+<img src="./Develop/public/assets/images/readme/Contact.png" alt="Contact" style="max-height: 200px; max-width: 200px;">
+<img src="./Develop/public/assets/images/readme/Resume.png" alt="Resume" style="max-height: 200px; max-width: 200px;">
 
 ## Contributors
 None

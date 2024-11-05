@@ -1,11 +1,11 @@
-/* Customize Body Content*/
+/* Customize Body Content*/ /*Customizes the resume page skills*/
 
 body {
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
   background-color: #051e2c;
-  color: white;
+  color: #7FFFD4;
 
 }
 
@@ -76,14 +76,13 @@ section {
   box-sizing: border-box;
 }
 
-/* Customize Section Link text */
+/* Customize Section Link text */ /*Customizes Download resume text*/
 
 section a {
-text-decoration: none;
-font-size: x-large;
-font-weight: bolder;
-color: white;
-
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
 }
 
 /*Customize Section links on hover*/ /*Customizes the Download resume link*/
@@ -103,6 +102,7 @@ section a:hover{
       margin-top: 4rem;
       margin-bottom: 2rem;
       text-indent: 25px;
+      color: white;
   }
 
 /*Customize the image attached to links*//*Customizes the Icon next to the Download resume link*/
