@@ -12,7 +12,7 @@ function Portfolio() {
       title: 'Text Editor 🤍',
       deployLink: 'https://kt-m19-text-editor.onrender.com',
       repoLink: 'https://github.com/Baelak/KT-M19-text-Editor',
-      backgroundImage: 'url("./public/assets/images/cards/text-editor-card.png")',
+      backgroundImage: 'url("/public/assets/images/cards/text-editor-card.png")',
       description: 'A syntax highlighting text editor that can be installed and used offline.'
     },
     {
