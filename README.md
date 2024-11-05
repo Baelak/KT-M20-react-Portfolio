@@ -6,10 +6,10 @@
 
 
 ## Description
-This is a single page portfolio website that has four pages and highlights my projects, has my resume, a contact page, and a an about me page.
+This single-page app keeps things simple and organized, with four sections: About Me, Projects, Resume, and Contact. It highlights my journey as a developer and is designed to give you a quick, easy way to explore my work, download my resume, and get in touch. Each section highlights who I am as a developer and some of my projects
 
 ## Deployed Application URL
-
+https://kaleab-teklemichael.netlify.app/
 
 ## Repository URL
 https://github.com/Baelak/KT-M20-react-Portfolio

@@ -27,6 +27,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   gap: 4rem;
+  margin-right: 2rem;
 }
 
 /* Customize Nav links button text look*/
@@ -42,7 +43,6 @@ button {
   background-color: transparent;
   border: none;
   outline: #4ced5c;
-  border-radius: 25px;
   height: 200%;
   width: 125%;
   color: white;
