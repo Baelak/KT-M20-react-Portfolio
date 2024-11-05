@@ -7,7 +7,7 @@ function Resume() {
       <br/>
       <a href="/assets/Kaleab Teklemichael Resume.pdf" download>
       Download My Resume
-      <img src= "'./assets/images/logos/download-button-logo.png" alt='download-logo'></img></a>
+      <img src= "./assets/images/logos/download-button-logo.png" alt='download-logo'></img></a>
       <br/>
 
       <h4> Front End Proficiencies</h4>
