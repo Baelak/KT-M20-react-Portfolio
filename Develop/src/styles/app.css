@@ -80,6 +80,7 @@ section {
 
 section a {
 text-decoration: none;
+font-size: x-large;
 font-weight: bolder;
 color: white;
 
@@ -120,7 +121,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 8%;
+  height: 10%;
 }
 
 /*Customize the Footer Links*/
