@@ -9,7 +9,20 @@ body {
 
 }
 
-/* Customize Header Content*/
+/* Adjust the styles for mobile devices */
+
+@media screen and (min-width: 767px) {
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c3430;
+    color: #4ced5c;
+    padding: 1rem;
+    width: 100%;
+  }
+}
 
 header {
   display: flex;
@@ -68,6 +81,16 @@ button:focus {
 
 /* Customize Section Spacing */
 
+@media screen and (min-width: 767px) {
+
+section {
+ /* padding: 0.5rem;*/
+  width: 75%;
+  margin-bottom: 10rem;
+  box-sizing: border-box;
+}
+}
+
 section {
   padding: 1rem;
   margin-left: 5rem;
@@ -75,6 +98,7 @@ section {
   margin-bottom: 10rem;
   box-sizing: border-box;
 }
+
 
 /* Customize Section Link text */ /*Customizes Download resume text*/
 
