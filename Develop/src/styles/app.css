@@ -26,12 +26,12 @@ body {
 
 header {
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   background-color: #0c3430;
   color: #4ced5c;
-  MARGIN: 0;
+  margin: 0;
   width: 100%;
 }
 

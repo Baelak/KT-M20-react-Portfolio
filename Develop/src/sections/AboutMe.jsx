@@ -5,7 +5,6 @@ function AboutMe() {
     <section>
       <h2>About Me</h2>
       <img class="devHeadshot" src="/assets/images/profile.png" alt="Developer's picture"/>
-      <img src="/assets/images/logos/scroll-down-logo-24.png" alt='scroll down logo'/>
       <h3>
         Becoming a developer has been one of the most rewarding journeys of my life. 
   Hi there! 😊 I’m Kaleab, a full-stack developer with a passion for design and an eye for functionality.
