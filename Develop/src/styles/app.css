@@ -11,7 +11,7 @@ body {
 
 /* Adjust the styles for mobile devices */
 
-@media screen and (min-width: 767px) {
+/* @media screen and (max-width: 767px) {
   
   header {
     display: flex;
@@ -22,15 +22,16 @@ body {
     padding: 1rem;
     width: 100%;
   }
-}
+} */
 
 header {
   display: flex;
+  position: absolute;
   justify-content: space-between;
   align-items: center;
   background-color: #0c3430;
   color: #4ced5c;
-  padding: 1rem;
+  MARGIN: 0;
   width: 100%;
 }
 
@@ -79,22 +80,42 @@ button:focus {
 
 }
 
-/* Customize Section Spacing */
+/*Customize Headshot picture*/
 
-@media screen and (min-width: 767px) {
+.devHeadshot {
+  /*maxWidth: '600px', 
+  maxHeight: '600px',*/ 
+  width: 90%; 
+  height: 40%;
+}
+  
+
+
+/* Customize Section Spacing */
+@media screen and (max-width: 767px) {
+
+ .devHeadshot {
+    /*padding: 0.5rem;*/
+    width: 90%;
+    margin-bottom: 10rem;
+    /* box-sizing: border-box; */
+  }
+  }
+  
+@media screen and (max-width: 767px) {
 
 section {
- /* padding: 0.5rem;*/
-  width: 75%;
-  margin-bottom: 10rem;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 5rem;
   box-sizing: border-box;
 }
 }
 
 section {
-  padding: 1rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  padding-top: 10rem;
+  margin-left: 1rem;
+  margin-right: 0rem;
   margin-bottom: 10rem;
   box-sizing: border-box;
 }
@@ -127,6 +148,7 @@ section a:hover{
       margin-bottom: 2rem;
       text-indent: 25px;
       color: white;
+      width: 90%;
   }
 
 /*Customize the image attached to links*//*Customizes the Icon next to the Download resume link*/

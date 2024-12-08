@@ -30,11 +30,11 @@ function Portfolio() {
       description: 'Real-time weather updates and forecasts.'
     },
     {
-        title: 'Tech Blog',
-        deployLink: 'https://kt-m14-tech-blog.onrender.com',
-        repoLink: 'https://github.com/Baelak/KT-M14-tech-Blog',
+        title: 'Inventory Manager 🤍',
+        deployLink: 'https://p3-inventory-manager.onrender.com/',
+        repoLink: 'https://github.com/Baelak/P3-inventory-Manager',
         backgroundImage: 'url("./assets/images/cards/tech-blog-card.png")',
-        description: 'A platform for developers to share and explore tech-related articles.'
+        description: 'Efficient web app for tracking and managing inventory.'
      }
 ];
 
@@ -47,14 +47,14 @@ function Portfolio() {
       description: 'A command-line app for managing employee data.'
     },
     {
-      title: 'E-Commerce Back End',
+      title: 'E-Commerce Back End ',
       deployLink: 'https://drive.google.com/file/d/1oA9P6FN421IdUsxls_Ykf_huHuLM8WsU/view?usp=sharing',
       repoLink: 'https://github.com/Baelak/KT-M12-employee-Tracker',
       backgroundImage: 'url("./assets/images/cards/e-commerce-back-end-card.png")',
       description: 'A back-end for e-commerce platforms with a SQL database.'
     },
     {
-      title: 'Social Network API',
+      title: 'Social Network API 🤍',
       deployLink: 'https://drive.google.com/file/d/12TP1-jtd9xIAc-h0q6LhpvRQyYGBV4iD/view?usp=drive_link',
       repoLink: 'https://github.com/Baelak/KT-M18-social-Network-API',
       backgroundImage: 'url("./assets/images/cards/social-network-api-card.png")',

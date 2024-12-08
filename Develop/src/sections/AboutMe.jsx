@@ -4,9 +4,7 @@ function AboutMe() {
   return (
     <section>
       <h2>About Me</h2>
-      <img src="/assets/images/profile.png" alt="Developer" 
-       style={{ maxWidth: '600px', maxHeight: '600px', width: 'auto', height: 'auto' }}
-      />
+      <img class="devHeadshot" src="/assets/images/profile.png" alt="Developer"/>
       <h3>
         Becoming a developer has been one of the most rewarding journeys of my life. 
   Hi there! 😊 I’m Kaleab, a full-stack developer with a passion for design and an eye for functionality.
