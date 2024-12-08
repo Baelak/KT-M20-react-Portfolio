@@ -33,7 +33,7 @@ function Portfolio() {
         title: 'Inventory Manager 🤍',
         deployLink: 'https://p3-inventory-manager.onrender.com/',
         repoLink: 'https://github.com/Baelak/P3-inventory-Manager',
-        backgroundImage: 'url("./assets/images/cards/tech-blog-card.png")',
+        backgroundImage: 'url("./assets/images/cards/inventory-manager-card.png")',
         description: 'Efficient web app for tracking and managing inventory.'
      }
 ];
