@@ -82,11 +82,14 @@ button:focus {
 
 /*Customize Headshot picture*/
 
-.devHeadshot {
+img.devHeadshot {
   /*maxWidth: '600px', 
   maxHeight: '600px',*/ 
-  width: 90%; 
-  height: 40%;
+  width: 50%; 
+  height:30%;
+  padding: 0;
+  margin: 0;
+  justify-items: center;
 }
   
 
