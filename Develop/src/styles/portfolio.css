@@ -1,114 +1,104 @@
-/*Customize Portfolio Spacing*/
-
+/* Customize Portfolio Spacing */
 .portfolio {
-    padding: 0rem;
-  }
-  
-  /* Customize the project cards grid view*/
+  padding: 0rem;
+  position: relative;
+  z-index: 1;
+}
 
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-  }
-  
-  /* Customize the project cards*/
+/* Customize the project cards grid view */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
 
-  .project-card {
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-    height: 200px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-  }
-  
-  /* Customize the overlay transform on hover for the project cards*/
+/* Customize the project cards */
+.project-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  height: 200px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
 
-  .project-card:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Customize the overlay on hover for the project cards*/
+/* Customize the overlay transform on hover for the project cards */
+.project-card:hover {
+  transform: scale(1.05);
+}
 
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
-    opacity: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.3s ease;
-  }
-  
-  /* Customize the overlay view on hover for the project cards*/
+/* Customize the overlay on hover for the project cards */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
 
-  .project-card:hover .overlay {
-    opacity: 1;
-  }
-  
-  /* Customize the title on hover for the project cards*/
+/* Customize the overlay view on hover for the project cards */
+.project-card:hover .overlay {
+  opacity: 1;
+}
 
-  .project-title {
-    color: white;
-    font-size: 1.2rem;
-    text-align: center;
-    margin-bottom: 0.5rem;
-  }
-  
-  /* Customize the description on hover for the project cards*/
+/* Customize the title on hover for the project cards */
+.project-title {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
 
-  .project-description {
-    color: #ddd;
-    font-size: 1rem;
-    text-align: center;
-    margin: 0.5rem 0;
-  }
-  
-  /*Customize the Project icons on hover on the project cards*/
+/* Customize the description on hover for the project cards */
+.project-description {
+  color: #ddd;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
 
-  .project-links {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;      /* Center-align the icons horizontally */
-    align-items: center;          /* Center-align the icons vertically */
-  }
-  
-  /* Customize the overlay images on hover for the portfolio page project cards */
+/* Customize the Project icons on hover on the project cards */
+.project-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
 
+/* Customize the overlay images on hover for the portfolio page project cards */
+.project-links img {
+  width: 35px;
+  height: 35px;
+  padding: 2.5px;
+  transition: transform 0.3s ease;
+}
+
+/* Responsive Design for the portfolio page project cards */
+@media (max-width: 768px) {
   .project-links img {
-    width: 35px;
-    height: 35px;
-    padding: 2.5px;
-    transition: transform 0.3s ease;
+    width: 25px;
+    height: 25px;
   }
-  
-  /* Responsive Design for the portfolio page project cards */
+}
 
-  @media (max-width: 768px) {
-    .project-links img {
-      width: 25px;
-      height: 25px;
-    }
-  }
+/* Transform overlay images on hover for the portfolio page project cards */
+.project-card:hover .project-links img {
+  transform: scale(1);
+}
 
-  /*Transform overlay images on hover for the portfolio page project cards*/
+/* Transform overlay images on hover for the portfolio page project cards */
+.project-card:hover .project-links img:hover {
+  transform: scale(1.3);
+}
 
-  .project-card:hover .project-links img {
-    transform: scale(1);
-    
-  }
-  
-  /*Transform overlay images on hover for the portfolio page project cards*/
-  
-  .project-card:hover .project-links img:hover {
-    transform: scale(1.3);
-    
-  }

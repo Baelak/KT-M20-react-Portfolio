@@ -1,69 +1,71 @@
 /* Responsive design: Customize Nav links placement*/
-
 .nav-links {
-    display: flex;
-    list-style: none;
-  }
-  
+  display: flex;
+  list-style: none;
+}
+
 /* Responsive design: Customize hamburger menu position */
+.hamburger-icon {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 1002; /* Increased z-index */
+}
 
-  .hamburger-icon {
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    z-index: 1000;
-
-  }
-  
 /* Responsive design: Hide nav links and show hamburger on smaller screens */
-
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 137px;    /* Adjust based on your header height to distance the hamburger menu */
-      left: 0;
-      right: 0;
-      background-color: #0c3430;    /*Customize background color for hamburger menu*/
-      padding: 1rem;
-      z-index: 1000;
-      width: 100%;
-    }
-  
-/* Responsive design: Customize Nav links view */
-
-    .nav-links.open {
-      display: flex;
-    }
-  
-/* Responsive design: Customize hamburger icon view */
-
-    .hamburger-icon {
-      display: block;
-      margin-right: 75px;
-    }
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: fixed; /* Changed from absolute to fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0c3430;
+    padding: 1rem;
+    z-index: 1001; /* Increased z-index */
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    justify-content: center; /* Center vertically */
   }
-  
+
+  /* Responsive design: Customize Nav links view */
+  ul.nav-links.open {
+    display: flex;
+    z-index: 1001; /* Match the z-index of .nav-links */
+  }
+
+  /* Responsive design: Customize hamburger icon view */
+  .hamburger-icon {
+    display: block;
+    margin-right: 75px;
+  }
+}
+
 /* Responsive design: Customize Nav links buttons view */
+.nav-links li button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-right: 1rem;
+  text-align: left;
+  cursor: pointer;
+}
 
-  .nav-links li button {
-    background: none;
-    border: none;
-    color: white;
-    padding: 10px;
-    margin-right: 1rem;
-    text-align: left;
-    cursor: pointer;
-  }
-  
 /* Responsive design: Customize Nav links active view */
+.nav-links li button.active {
+  font-weight: bold;
+  color: #66ff99; /* Active section color */
+}
 
-  .nav-links li button.active {
-    font-weight: bold;
-    color: #66ff99; /* Active section color */
-  }
-  
+header {
+  position: relative;
+  z-index: 1002; /* Same as hamburger-icon */
+  background-color: #0c3430; /* Replace with your actual header color */
+}
+
