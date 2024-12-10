@@ -29,8 +29,8 @@
     padding: 1rem;
     z-index: 1001; /* Increased z-index */
     width: 100%;
-    height: 100vh; /* Full viewport height */
-    justify-content: center; /* Center vertically */
+    /*height: 100vh; /* Full viewport height */
+    /*justify-content: center; /* Center vertically */
   }
 
   /* Responsive design: Customize Nav links view */
