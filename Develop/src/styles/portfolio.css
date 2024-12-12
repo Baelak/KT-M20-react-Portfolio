@@ -1,6 +1,6 @@
 /* Customize Portfolio Spacing */
 .portfolio {
-  padding: 0rem;
+  padding-top: 7rem;
   position: relative;
   z-index: 1;
 }

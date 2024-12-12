@@ -116,7 +116,7 @@ section {
 }
 
 section {
-  padding-top: 7rem;
+  padding-top: 5rem;
   margin-left: 1rem;
   margin-right: 0rem;
   margin-bottom: 10rem;
@@ -147,7 +147,7 @@ section a:hover{
   section h3{
       line-height: 1.5;
       text-align: justify;
-      margin-top: 4rem;
+      margin-top: 2rem;
       margin-bottom: 2rem;
       text-indent: 25px;
       color: white;
