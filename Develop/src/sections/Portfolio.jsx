@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import githubLogo from '../../public/assets/images/logos/footer-logo-github.png';
 import deployLogo from '../../public/assets/images/logos/power-button-logo.png';
 import startLogo from '../../public/assets/images/logos/start-button-logo.png';
+import Popup from '../components/Popup';
 
 import '../styles/portfolio.css'; 
 
 
 function Portfolio() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    setShowPopup(true);
+  }, []);
+
   const webProjects = [
     {
       title: 'Text Editor 🤍',
@@ -124,6 +131,8 @@ function Portfolio() {
           </div>
         ))}
       </div>
+
+      {showPopup && <Popup onClose={() => setShowPopup(false)} />}
     </section>
   );
 }
