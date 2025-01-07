@@ -3,7 +3,6 @@ import React from 'react';
 function Resume() {
   return (
     <section>
-      <h2>Resume</h2>
       <br/>
       <a href="/assets/Kaleab Teklemichael Resume.pdf" download>
       Download My Resume

@@ -78,7 +78,6 @@ function Portfolio() {
 
   return (
     <section className="portfolio">
-      <h2>Portfolio</h2>
 
       <h3>Web Applications</h3>
       <div className="project-grid">
